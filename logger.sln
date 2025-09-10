@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{657E8914-A40B-46AD-9739-F6C7726410D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58904DB7-47E3-4AD5-BF19-ACC8DCA24A04}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FB0749DE-2727-42BA-B39C-A41D650BF925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Azure.PipelinesIssueLogger.Unit.Tests", "tests\MSBuild.Azure.PipelinesIssueLogger.Unit.Tests\MSBuild.Azure.PipelinesIssueLogger.Unit.Tests.csproj", "{4898F55A-B5B8-4A46-A854-CAC64452C002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Azure.PipelinesIssueLogger", "src\MSBuild.Azure.PipelinesIssueLogger\MSBuild.Azure.PipelinesIssueLogger.csproj", "{4EE2E409-C148-442D-9872-B085499C5993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4898F55A-B5B8-4A46-A854-CAC64452C002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4898F55A-B5B8-4A46-A854-CAC64452C002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4898F55A-B5B8-4A46-A854-CAC64452C002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4898F55A-B5B8-4A46-A854-CAC64452C002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE2E409-C148-442D-9872-B085499C5993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE2E409-C148-442D-9872-B085499C5993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE2E409-C148-442D-9872-B085499C5993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE2E409-C148-442D-9872-B085499C5993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4898F55A-B5B8-4A46-A854-CAC64452C002} = {FB0749DE-2727-42BA-B39C-A41D650BF925}
+		{4EE2E409-C148-442D-9872-B085499C5993} = {657E8914-A40B-46AD-9739-F6C7726410D9}
+	EndGlobalSection
+EndGlobal

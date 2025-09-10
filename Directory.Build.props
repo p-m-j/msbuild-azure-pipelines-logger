@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Authors>Paul Johnson</Authors>
+    <PackageTags>MSBuild;Azure;Pipelines;Logger;CI;Build</PackageTags>
+    <PackageLicenseExpression>ISC</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/p-m-j/msbuild-azure-pipelines-logger</RepositoryUrl>
+    <Copyright>Copyright (c) Paul Johnson 2025</Copyright>
+  </PropertyGroup>
+</Project>
